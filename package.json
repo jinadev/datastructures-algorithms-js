@@ -2,13 +2,14 @@
   "name": "ds-algo-js",
   "version": "1.0.0",
   "description": "Data structures and Algorithms in JavaScript",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "jinpnr@gmail.com [Jinadev]",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "type": "module"
 }
